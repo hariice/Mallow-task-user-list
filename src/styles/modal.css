@@ -1,0 +1,9 @@
+
+.ant-form-item-label {
+    text-align: left !important;
+    font-weight: 500;
+  }
+
+  .ant-form {
+    box-shadow: none;
+  }

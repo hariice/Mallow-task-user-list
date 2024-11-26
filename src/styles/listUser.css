@@ -1,0 +1,105 @@
+.list-main-cntr {
+  height: 100vh !important;
+  background-color: #f0f2f5;
+}
+
+.list-user-table {
+  padding: 20px;
+  margin: 50px;
+  background-color: #ffff;
+}
+
+.table-img {
+  border-radius: 100px;
+  height: 40px;
+}
+
+.ant-btn {
+  border-radius: 0px !important;
+}
+.list-header {
+  height: 40px;
+  background-color: #010b1a;
+  text-align: right;
+  color: #ffff;
+  font-weight: 500;
+  line-height: 40px;
+  padding: 10px;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h3 {
+  margin: 0;
+}
+.ant-radio-button-wrapper {
+  border-radius: 0px !important;
+}
+
+.tabs-view {
+  float: left;
+  margin-top: 10px;
+}
+
+.ant-table-cell,
+.ant-table-thead {
+  text-align: center !important;
+}
+.card-cntr {
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+.user-card {
+  position: relative;
+  max-width: 300px;
+  max-height: 400px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  overflow: hidden;
+  .ant-card-meta-title {
+    font-size: 20px;
+  }
+}
+.card-img {
+  border-radius: 100px;
+}
+
+.card-actions {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  transform: translate(0, -75px);
+  opacity: 0;
+  transition: opacity 0.3s;
+  .ant-btn {
+    height: 50px !important;
+    width: 50px !important;
+    border-radius: 100px !important;
+    margin: 5px;
+  }
+}
+
+.user-card:hover,
+.card-actions {
+  opacity: 1;
+}
+.card-actions:hover .user-card {
+  filter: blur(5px);
+}
+
+.user-card:hover .user-card {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(5px);
+  z-index: -1;
+  border-radius: 8px;
+}
+
+.user-card.blurred {
+  filter: blur(5px);
+}

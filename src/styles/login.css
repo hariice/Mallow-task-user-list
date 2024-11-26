@@ -1,0 +1,36 @@
+.login-main-ctnr {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;
+    background-color: #f0f2f5;
+    margin: 0;
+}
+.login-form {
+    width: 100%;
+    max-width: 400px;
+}
+
+.ant-form {
+    margin: 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.ant-row {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.login-btn {
+    border-radius: 0px !important;
+    width: 100% !important;
+}
+
+.check-box .ant-form-item-control-input-content {
+    display: flex;
+    max-width: 100%;
+}
